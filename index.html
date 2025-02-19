@@ -9,8 +9,9 @@
     <title>Cameron Gaines Homepage</title>
 </head>
 <body>
-    <!-- Navbar -->
-    <div class="bg-purple-900 w-[85%] h-[10%] fixed top-[1%] left-[7.5%] flex rounded-3xl justify-evenly items-center pl-[6%] pr-[4%] lg:h-[85%] lg:w-[8%] lg:top-[7.5%] lg:left-[91%] lg:p-0 lg:content-evenly lg:flex-wrap border-white border-[4px] z-[3]">
+
+    <!-- Makes the navbar stick to the top when on a mobile device and to the left on a desktop-->
+    <div id="navbar" class="bg-purple-900 w-[85%] h-[10%] fixed top-[1%] left-[7.5%] flex rounded-3xl justify-evenly items-center pl-[6%] pr-[4%] lg:h-[85%] lg:w-[8%] lg:top-[7.5%] lg:left-[91%] lg:p-0 lg:content-evenly lg:flex-wrap border-white border-[4px] z-[3]">
         <p class="content-center text-2xl font-bold lg:text-lg">Camn547</p>
         <br>
         <a href="https://github.com/Camn547"><img src="./images/github-logo.png" alt="Github" class="lg:w-[70px] ml-[5px]"></a>
@@ -18,34 +19,56 @@
         <a href="#"><img src="./images/discord-logo.png" alt="Discord" class="lg:w-[70px] ml-[5px]"></a>
     </div>
 
-    <!-- Main profile -->
+    <!-- Main profile Picture-->
     <div class=" absolute w-[100%] h-[50%] top-[11%] lg:top-[5%]">
         <img src="./images/me (1).jpg" alt="Me" class="absolute left-[30%] w-[40%] sm:w-[35%] sm:left-[10%] md:w-[36%] md:left-[10%] top-[20%] rounded-full border-white border-[6px] lg:left-[5%] lg:top-[10%] lg:w-[30%]">
         <h1 class="justify-self-center text-4xl lg:absolute lg:left-[1%] lg:top-[-7%]">Cameron Gaines</h1>
     </div>
+
+    <!-- About me -->
     <div class="absolute w-[75%] top-[60vh] left-[15%] text-lg sm:top-[20%] md:top-[25%] lg:top-[10%] lg:w-[40%] lg:left-[46%] sm:w-[45%] sm:left-[50%] sm:text-sm md:text-xl lg:text-xl">
         <h1 class="justify-self-center text-6xl">About Me</h1>
         <hr>
         <br>
         <p>Hello! My name is Cameron Gaines and I am a Coding and Development Student. I was born and currently live in Phoenix, Arizona. I am 17 years old senior in highschool and this is my first year of learning Coding and Dev. I plan on going to Northern Arizona University to get my degree in Computer Science. While I may not be the best Coder, I am going to aim for the top.</p>
     </div>
+
     <br>
+
+    <!-- My Work -->
     <div class="absolute lg:bottom-[0] lg:w-[75%] lg:left-[10%] text-xl md:bottom-[-18vh] md:w-[80%] md:left-[10%] sm:top-[70%] sm:w-[80%] sm:left-[10%] top-[120%] w-[80%] left-[10%] sm:text-sm md:text-xl lg:text-xl md:top-[80%]">
         <h1 class="justify-self-center text-6xl">My Work</h1>
         <hr>
         <br>
         <div id="work" class="">
-            <img src="./images/undertale-work.png" alt="undertale JS only website">
+            <!-- undertale JS website -->
+            <a href="https://github.com/Camn547/Assignments/tree/main/JS%20only%20wbst"><img src="./images/undertale-work.png" alt="undertale JS only website"></a>
             <br>
             <p class="w-[90%] justify-self-center">This is an Undertale inspired website made entirely out of JavaScript. This project was a little challenging for me since it was my first time making a website with only JS</p>
             <br>
             <hr>
             <br>
             <br>
-            <img src="./images/demon-slayer-work.png" alt="demon slayer Tailwind practice">
+            <!-- demon slayer Tailwind website -->
+            <a href="https://github.com/Camn547/Assignments/tree/main/tailwind%20assignment"><img src="./images/demon-slayer-work.png" alt="demon slayer Tailwind practice" ></a>
             <br>
             <p class="w-[90%] justify-self-center">This website is a 3x3 grid of important characters from Demon Slayer. This project was made with only HTML and Tailwind. It was difficult because i was still relatively new to using Tailwind and its fully responsive to screen size</p>
         </div>
+    </div>
+
+    <!-- Contact page -->
+    <div id="contact" class="absolute lg:bottom-[0] lg:w-[75%] lg:left-[10%] text-xl md:bottom-[-18vh] md:w-[80%] md:left-[10%] sm:top-[200%] sm:w-[80%] sm:left-[10%] top-[270%] w-[80%] left-[10%] sm:text-sm md:text-xl lg:text-xl md:top-[265%] lg:top-[280%]">
+        <h1 class="justify-self-center text-6xl">Contact Me</h1>
+        <hr>
+        <br>
+        <p class="text-2xl justify-self-center">Feel free to contact me for project requests and other questions you may have!</p>
+        <br>
+        <div class=" w-[100%] grid grid-cols-1 grid-rows-3 lg:grid-cols-3 lg:grid-rows-1 md:grid-cols-3 md:grid-rows-1 gap-5 sm:grid-cols-3 sm:grid-rows-1">
+            <div class="justify-items-center"><a href="https://github.com/Camn547"><img src="./images/github-logo.png" alt="Github"></a><h2>Github</h2></div>
+            <div class="justify-items-center"><a href="cgaine420@west-mec.org"><img src="./images/email-logo.png" alt="Email"></a><h2>Email</h2></div>
+            <div class="justify-items-center"><a href="https://discord.com/users/Camn547#3369"><img src="./images/discord-logo.png" alt="Discord"></a><h2>Discord</h2></div>
+        </div>
+        <br>
     </div>
 </body>
 </html>
